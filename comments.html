@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+  <title>W1L丨留言</title>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="W1L 爱情博客联盟是一个展示独立爱情博客的平台，W1L 来源于代码 while(1){love++;} 的缩写，寓意每天爱你多一点！">
+  <meta name="keywords" content="W1L,爱情,爱情博客,记录爱情,爱情博客联盟,博客收录,博客展示" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link href="https://cdn.bootcss.com/font-awesome/5.10.0-12/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/W-1-L/cdn-for-w1l/css/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css">
+</head>
+
+<body style="background-image: url(https://cdn.jsdelivr.net/gh/W-1-L/cdn-for-w1l/images/comments.webp);background-size: cover;background-repeat: no-repeat;">
+  <a href="/index.html" class="button_back_white"><i class="fas fa-arrow-circle-left"></i> Back</a>
+
+  <!-- Comments Container Begin -->
+  <div class="comments-container">
+    <div class="comments-describe">
+      <div>
+        <h1>W1L - while(1){love++;}</h1>
+      </div>
+      <h2 class="comments-intro">你是我一生只会遇见一次的惊喜！💖</h2>
+    </div>
+    <div id="gitalk-container"></div>
+  </div>
+  <!-- Comments Container End -->
+
+  <!-- Gitalk Begin -->
+  <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+  <script type="text/javascript">
+    var gitalk = new Gitalk({
+      clientID: '56341f57871cdba78c4d',
+      clientSecret: '978d399e1c4f993496d438ccb3388f7a9d9587c9',
+      repo: 'comments-for-w1l',
+      owner: 'W-1-L',
+      admin: 'TRHX',
+      /*admin: ['TRHX', 'W1LUnion'],*/
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  </script>
+  <!-- Gitalk End -->
+
+  <!-- Baidu Statistics Begin -->
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?c683e24d8dbbff19e703c179e9cc5f37";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+  <!-- Baidu Statistics End -->
+
+</body>
+
+</html>
