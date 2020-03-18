@@ -34,12 +34,13 @@
   <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
   <script type="text/javascript">
     var gitalk = new Gitalk({
-      clientID: '56341f57871cdba78c4d',
-      clientSecret: '978d399e1c4f993496d438ccb3388f7a9d9587c9',
+      clientID: '3bee0ac828e2559371f3',
+      clientSecret: '85fd324391bcbd1bfa93c77e788b61ccfd79d989',
       repo: 'comments-for-w1l',
       owner: 'W-1-L',
       admin: 'TRHX',
       /*admin: ['TRHX', 'W1LUnion'],*/
+      id: location.pathname,
       distractionFreeMode: true
     });
     gitalk.render('gitalk-container');
