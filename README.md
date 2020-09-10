@@ -6,13 +6,21 @@ W1L 爱情博客联盟是一个展示独立爱情博客的平台，谁说程序�
 
 # W1L 的来源
 
-W1L 为以下代码的缩写，寓意每天爱你多一点！于 2020.03.18 建立。
+W1L 为以下代码的缩写，寓意每天爱你多一点！于 2020.03.18 建立。创始人[@TRHX](https://github.com/TRHX)，logo设计[@TUFZ](https://github.com/TUFZ)。
 
 ```c
 while(1) {
 	love++;
 }
 ```
+
+# 诚邀前端开发工程师
+
+由于 [@TRHX](https://github.com/TRHX)、[@TUFZ](https://github.com/TUFZ) 均非专业前端开发人员，能力与时间有限，诚邀专业前端开发工程师加入我们，共同建立专业的爱情博客联盟！
+
+联系邮箱：admin@itrhx.com
+
+联系 QQ：2273902448
 
 # 如何加入
 
